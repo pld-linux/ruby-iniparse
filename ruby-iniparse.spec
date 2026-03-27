@@ -5,12 +5,12 @@
 %define	pkgname	iniparse
 Summary:	A pure Ruby library for parsing INI documents
 Name:		ruby-%{pkgname}
-Version:	1.4.4
-Release:	2
+Version:	1.5.0
+Release:	1
 License:	MIT
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
-# Source0-md5:	5ff1df1b63031f4a2a8343a2fbe4f630
+# Source0-md5:	1b8ad4813482f10398d2c26828a355d8
 URL:		http://github.com/antw/iniparse
 BuildRequires:	rpm-rubyprov
 BuildRequires:	rpmbuild(macros) >= 1.656
